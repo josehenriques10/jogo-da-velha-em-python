@@ -292,7 +292,6 @@ def main() -> None:
                     [0, 0, 0]
                 ]
                 vit, ven = game()
-
             case 2:
                 exibir_placar()
             case 0:
