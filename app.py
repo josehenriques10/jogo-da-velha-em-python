@@ -27,7 +27,7 @@ def main() -> None:
         return int(input(':: > '))
 
 
-    def game() -> tuple or None:
+    def game() -> tuple:
         """
         Recebe as entradas dos jogadores, seta em qual espaço da matriz 
         (tabuleiro) será armazenado a entrada de cada jogador, também 
@@ -146,7 +146,7 @@ def main() -> None:
                 return
 
 
-    def vitoria() -> int or None:
+    def vitoria() -> int:
         """
         Retorna se houve ou não vencedor
         """
